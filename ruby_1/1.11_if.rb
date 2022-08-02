@@ -19,7 +19,7 @@
 
 a = 20
 if a >= 10
-  print "hight\n"
+  print "height\n"
 else
   print "low\n"
 end

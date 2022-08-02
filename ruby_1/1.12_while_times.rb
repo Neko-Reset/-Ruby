@@ -26,5 +26,5 @@ end
 # end
 
 10.times do
-  p "カイバさん"
+  p "繰り返してる"
 end
