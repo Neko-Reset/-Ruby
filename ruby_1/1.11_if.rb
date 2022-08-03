@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 # 条件判断: if ~ then ~ end
 
 # サンプル
 # a = 20
 
-# if a >= 10 
+# if a >= 10
 #   print "hight\n"
 # end
 
