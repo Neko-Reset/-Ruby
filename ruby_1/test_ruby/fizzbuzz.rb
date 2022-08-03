@@ -7,8 +7,10 @@ def fizzbuzz
       puts "fizz"
     elsif i % 5 == 0
       puts "buzz"
-    elsif i % 15 == 0
+    elsif i % 3 == 0 || i % 5 == 0
       puts "fizzbuzz"
+    # elsif i % 15 == 0
+    #   puts "fizzbuzz"
     end
   end
 end
