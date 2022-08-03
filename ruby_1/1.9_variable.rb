@@ -1,11 +1,13 @@
+# frozen_string_literal: true
+
 # 変数
 # 変数 = オブジェクト
 # 変数にオブジェクトを代入してるという
 
-test1 = "文字列オブジェクト"
+test1 = '文字列オブジェクト'
 num = 10
 age = 18
-name = "takahashi"
+name = 'takahashi'
 
 # p test1
 # p num
@@ -18,11 +20,11 @@ x = 10
 y = 20
 z = 30
 
-area = ( (x * y)  +  (y * z)  + (z * x)) * 2
+area = ((x * y) + (y * z) + (z * x)) * 2
 volume = x * y * z
 
-print "表面積=", area, "\n"
-print "体積=", volume, "\n"
+print '表面積=', area, "\n"
+print '体積=', volume, "\n"
 
 # 1.9.1 メソッドと変数
 
