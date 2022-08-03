@@ -3,11 +3,10 @@
 # 変数
 # 変数 = オブジェクト
 # 変数にオブジェクトを代入してるという
-
-test1 = '文字列オブジェクト'
-num = 10
-age = 18
-name = 'takahashi'
+_test1 = '文字列オブジェクト'
+_num = 10
+_age = 18
+_name = 'takahashi'
 
 # p test1
 # p num

@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Metrics/MethodLength
 def fizzbuzz
   (1..100).each do |i|
     if (i % 15).zero?
@@ -13,5 +14,6 @@ def fizzbuzz
     end
   end
 end
+# rubocop:enable all
 
 fizzbuzz
