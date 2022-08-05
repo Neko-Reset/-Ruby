@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # 配列オブジェクト
-# arryオブジェクトの中身の要素の取り方
+# arrayオブジェクトの中身の要素の取り方
 # names = [ "田中", 1, "佐藤", 2 ]
 
 # p names[3]
