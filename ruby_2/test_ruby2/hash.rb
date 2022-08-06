@@ -18,7 +18,11 @@ puts '-----------------------------------------問6-----------------------------
 street_fighters = { 'ザンギエフ' => 214, 'バイソン' => 198, 'アベル' => 198, 'ルーファス' => 195 }
 
 street_fighters.each do |fighter, high|
-  puts "#{fighter}の身長は#{high}" if fighter.match?('ン')
+  # パターン1 処理が早い
+  puts "#{fighter}の身長は#{high}" if fighter.include?('ン')
+
+  # パターン2
+  # puts "#{fighter}の身長は#{high}" if fighter.match?('ン')
 end
 
 puts '-----------------------------------------問7-------------------------------------------------------'
